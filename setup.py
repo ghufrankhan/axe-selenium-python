@@ -15,7 +15,7 @@ setup(
                 accessibility testing.",
     long_description=open("README.rst").read(),
     url="https://github.com/ghufrankhan/axe-selenium-python",
-    packages=["axe_selenium_python", "axe_selenium_python.node_modules"],
+    packages=["axe_selenium_python", "axe_selenium_python.node_modules", "axe_selenium_python.tests"],
     package_data={
         "axe_selenium_python": [
             "axe_selenium_python/node_modules/axe-core/axe.min.js",
