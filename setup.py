@@ -9,9 +9,8 @@ with open("./README.rst") as f:
     readme = f.read()
 
 setup(
-    name="axe-selenium-python",
-    use_scm_version=True,
-    setup_requires=["setuptools_scm"],
+    name="axe-selenium-python-nhs-test",
+    version="1.0.0"
     description="Python library to integrate axe and selenium for web \
                 accessibility testing.",
     long_description=open("README.rst").read(),
