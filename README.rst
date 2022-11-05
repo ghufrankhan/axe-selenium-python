@@ -26,5 +26,5 @@ Usage & CHANGELOG
 | For Usage and CHANGELOG, go to: https://pypi.org/project/axe-selenium-python/
 | For more information, go to: https://github.com/mozilla-services/axe-selenium-python
 
-Updating & Deploying Instructions
-----------------------------------
+Updating & Deploying to PyPi
+-----------------------------
