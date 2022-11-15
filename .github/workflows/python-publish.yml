@@ -1,0 +1,40 @@
+# This workflow will upload a Python Package using Twine when a release is created
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries
+
+name: Upload Python Package to PyPi
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'
+        
+    - name: Install wheel
+      run: |
+        python -m pip install --upgrade pip
+        pip install wheel
+        
+    - name: npm
+      run: npm install
+      
+    - name: Build sdist
+      run: python setup.py sdist bdist_wheel
+      
+    - name: Install Twine
+      run: pip install twine
+      
+    - name: Twine upload
+      env:
+        TWINE_USERNAME: __token__
+        TWINE_PASSWORD: ${{ secrets.API_KEY }}
+      run: twine upload dist/*

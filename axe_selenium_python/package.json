@@ -8,15 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kimberlythegeek/axe-selenium-python.git"
+    "url": "git+https://github.com/ghufrankhan/axe-selenium-python.git"
   },
-  "author": "Kimberly Sereduck",
   "license": "MPL-2.0",
-  "bugs": {
-    "url": "https://github.com/kimberlythegeek/axe-selenium-python/issues"
-  },
-  "homepage": "https://github.com/kimberlythegeek/axe-selenium-python#readme",
+  "homepage": "https://github.com/ghufrankhan/axe-selenium-python",
   "dependencies": {
-    "axe-core": ">=4.0.2"
+    "axe-core": ">=4.4.3"
   }
 }
