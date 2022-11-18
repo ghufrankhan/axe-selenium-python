@@ -13,6 +13,6 @@
   "license": "MPL-2.0",
   "homepage": "https://github.com/ghufrankhan/axe-selenium-python",
   "dependencies": {
-    "axe-core": ">=4.4.3"
+    "axe-core": "^4.5.1"
   }
 }

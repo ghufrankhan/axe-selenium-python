@@ -3,7 +3,7 @@ axe-selenium-python-nhsuk
 
 axe-selenium-python-nhsuk integrates aXe and Selenium to enable automated web accessibility testing.
 
-**This version of axe-selenium-python-nhsuk is using axe-core v4.4.3.**
+**This version of axe-selenium-python-nhsuk is using axe-core v4.5.1.**
 
 Information
 ===========
@@ -34,6 +34,7 @@ Create a new branch and make the following changes:
 
 - **axe_selenium_python/axe_selenium_python/package-lock.json** - Update line 8-10 using information found `here <https://github.com/dequelabs/axe-core/blob/develop/package-lock.json>`_ - search for 'axe-core' to find the relevant info
 - **axe-selenium-python/axe_selenium_python/package.json** - Update line 16 (use the same version you set in the file above on line 8)
+- **axe-selenium-python/README.rst** - Update the version of axe-core that will be used (found at the top of this README file)
 - **axe-selenium-python/setup.py** - Increase the version number on line 13 - e.g. 1.0.1 > 1.0.2 (this new version number will also be used as a GitHub release tag)
 
 Create a Pull Request and merge your changes to the master branch.
