@@ -10,7 +10,7 @@ with open("./README.rst") as f:
 
 setup(
     name="axe-selenium-python-nhsuk",
-    version="1.0.1",
+    version="1.0.2",
     description="Python library to integrate axe and selenium for web \
                 accessibility testing.",
     long_description=open("README.rst").read(),
