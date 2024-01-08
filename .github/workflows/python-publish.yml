@@ -19,10 +19,11 @@ jobs:
       with:
         python-version: '3.x'
         
-    - name: Install wheel
+    - name: Install wheel and setuptools
       run: |
         python -m pip install --upgrade pip
         pip install wheel
+        pip install setuptools
         
     - name: npm
       run: npm install
