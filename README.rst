@@ -3,7 +3,7 @@ axe-selenium-python-nhsuk
 
 axe-selenium-python-nhsuk integrates aXe and Selenium to enable automated web accessibility testing.
 
-**This version of axe-selenium-python-nhsuk is using axe-core v4.8.2**
+**This version of axe-selenium-python-nhsuk is using axe-core v4.9.1**
 
 Information
 ===========
